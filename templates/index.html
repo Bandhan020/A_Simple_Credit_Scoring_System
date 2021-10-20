@@ -1,0 +1,274 @@
+<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Classy Booking Form Responsive Widget Template | Home :: w3layouts</title>
+<link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" media="all"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="keywords" content="Classy Booking Form  Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<!--web-fonts-->
+<link href='//fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+<script src="{{ url_for('static', filename='js/jquery-1.12.0.min.js')}}"></script>
+
+<!--web-fonts-->
+</head>
+<body>
+		<!---header--->
+		<div class="header w3ls">
+			<h1>Generate Your Credit Score</h1>
+			<h2 style="color:white;"> Fill up the form to get your credit score</h2>
+		</div>
+		<!---header--->
+		<!---main--->
+			<div class="main">
+				<div class="main-section agile">
+					<div class="login-form">
+						<form action="http://127.0.0.1:5000/dataSubmit" method="post">
+							<ul>
+								 <li class="text-info">Full Name *</li>
+								 <li><input type="text" name="1" placeholder="" required></li>
+								 <div class="clear"></div>
+							 </ul>
+							
+							  <ul>
+							 <ul>
+								 <li class="text-info">Account Balance*</li>
+								 <li class="se"><select class="time-dropdown form-dropdown validate[required, limitDate]" id="min_15" name="2">
+									<option>  </option>
+									<option value="1"> 0 </option>
+									<option value="2">0 to 200</option>
+									<option value="3">Greater than or equal to 200</option>
+									<option value="4">No checking Account</option>
+								  </select></li>
+								 <div class="clear"></div>
+							 </ul>
+							 <ul>
+								 <li class="text-info">Duration of Credit in month *</li>
+								 <li><input type="text" name="3" placeholder="" required></li>
+								 <div class="clear"></div>
+							 </ul>
+							 <ul>
+								 <li class="text-info">Payment Status*</li>
+								 <li class="se"><select class="time-dropdown form-dropdown validate[required, limitDate]" id="min_15" name="4">
+									<option>  </option>
+									<option value="0"> No credits taken / All credits paid back duly</option>
+									<option value="1">All credits at this bank paid back duly</option>
+									<option value="2"> Existing Credits paid back duly till now</option>
+									<option value="3">Delay in paying off in the past</option>
+									<option value="4">Critical account/Other credits existing (not at this bank)</option>
+								  </select></li>
+								 <div class="clear"></div>
+							 </ul>
+
+							 <ul>
+								 <li class="text-info">Purpose of Loan*</li>
+								 <li class="se"><select class="time-dropdown form-dropdown validate[required, limitDate]" id="min_15" name="5">
+									<option>  </option>
+									<option value="0">Car (new) </option>
+									<option value="1">Car (used)</option>
+									<option value="2">Furniture/Equipment</option>
+									<option value="3">Radio/Television</option>
+									<option value="4">Domestic Appliances</option>
+									<option value="5">Repairs </option>
+									<option value="6">Education</option>
+									<option value="7">Vacation</option>
+									<option value="8">Retraining</option>
+									<option value="9">Business</option>
+									<option value="10">Others</option>
+								  </select></li>
+								 <div class="clear"></div>
+							 </ul>
+
+							 <ul>
+								 <li class="text-info">Credit Amount *</li>
+								 <li><input type="text" name="6" placeholder="" required></li>
+								 <div class="clear"></div>
+							 </ul>
+
+							 <ul>
+								 <li class="text-info">Value of Savings*</li>
+								 <li class="se"><select class="time-dropdown form-dropdown validate[required, limitDate]" id="min_15" name="7">
+									<option>  </option>
+									<option value="1">Smaller than 100</option>
+									<option value="2">100 to 500</option>
+									<option value="3">500 to 1000</option>
+									<option value="4">Greater than 1000</option>
+									<option value="5">No savings account</option>
+								  </select></li>
+								 <div class="clear"></div>
+							 </ul>
+
+
+							 <ul>
+								 <li class="text-info">Length of current employment*</li>
+								 <li class="se"><select class="time-dropdown form-dropdown validate[required, limitDate]" id="min_15" name="8">
+									<option>  </option>
+									<option value="1">Unemployed</option>
+									<option value="2">Smaller than 1 year</option>
+									<option value="3">1 to 4 years</option>
+									<option value="4">4 to 7 years</option>
+									<option value="5">Greater than 7 years</option>
+								  </select></li>
+								 <div class="clear"></div>
+							 </ul>
+
+
+							  <ul>
+								 <li class="text-info">Installment Rate in Percentage*</li>
+								 <li class="se"><select class="time-dropdown form-dropdown validate[required, limitDate]" id="min_15" name="9">
+									<option>  </option>
+									<option value="1">5%</option>
+									<option value="2">8%</option>
+									<option value="3">10%</option>
+									<option value="4">12%</option>
+								  </select></li>
+								 <div class="clear"></div>
+							 </ul>
+
+
+
+							 <ul>
+								 <li class="text-info">Sex and Marital Status*</li>
+								 <li class="se"><select class="time-dropdown form-dropdown validate[required, limitDate]" id="min_15" name="10">
+									<option>  </option>
+									<option value="1">Male: Divorced/ Seperated</option>
+									<option value="2">Female: Divorced/ Separated/ Married</option>
+									<option value="3">Male: Single</option>
+									<option value="4">Male: Married/ Widowed</option>
+									<option value="5">Female: Single</option>
+								  </select></li>
+								 <div class="clear"></div>
+							 </ul>
+
+
+							 <ul>
+								 <li class="text-info">Guarantors*</li>
+								 <li class="se"><select class="time-dropdown form-dropdown validate[required, limitDate]" id="min_15" name="11">
+									<option>  </option>
+									<option value="1">None</option>
+									<option value="2">Co-applicant</option>
+									<option value="3">Guarantor</option>
+								  </select></li>
+								 <div class="clear"></div>
+							 </ul>
+
+							 <ul>
+								 <li class="text-info">Duration in Current Address *</li>
+								 <li><input type="text" name="12" placeholder="" required></li>
+								 <div class="clear"></div>
+							 </ul>
+
+
+
+							 <ul>
+								 <li class="text-info">Most Valuable Available Asset*</li>
+								 <li class="se"><select class="time-dropdown form-dropdown validate[required, limitDate]" id="min_15" name="13">
+									<option>  </option>
+									<option value="1">Real estate</option>
+									<option value="2">Life insurance/ Savings agreement/ Building Society</option>
+									<option value="3">Car or others</option>
+									<option value="4">No property/Unknown</option>
+								  </select></li>
+								 <div class="clear"></div>
+							 </ul>
+
+							 <ul>
+								 <li class="text-info">Age *</li>
+								 <li><input type="text" name="14" placeholder="" required></li>
+								 <div class="clear"></div>
+							 </ul>
+
+
+							 <ul>
+								 <li class="text-info">Concurrent credits*</li>
+								 <li class="se"><select class="time-dropdown form-dropdown validate[required, limitDate]" id="min_15" name="15">
+									<option>  </option>
+									<option value="1">Bank</option>
+									<option value="2">Stores</option>
+									<option value="3">None</option>
+								  </select></li>
+								 <div class="clear"></div>
+							 </ul>
+
+
+							  <ul>
+								 <li class="text-info">Types of Apartment*</li>
+								 <li class="se"><select class="time-dropdown form-dropdown validate[required, limitDate]" id="min_15" name="16">
+									<option>  </option>
+									<option value="1">Rent</option>
+									<option value="2">Own</option>
+									<option value="3">For free</option>
+								  </select></li>
+								 <div class="clear"></div>
+							 </ul>
+
+
+							 <ul>
+								 <li class="text-info">Number of Existing Credits at this Bank *</li>
+								 <li><input type="text" name="17" placeholder="" required></li>
+								 <div class="clear"></div>
+							 </ul>
+
+
+							 <ul>
+								 <li class="text-info">Occupation*</li>
+								 <li class="se"><select class="time-dropdown form-dropdown validate[required, limitDate]" id="min_15" name="18">
+									<option>  </option>
+									<option value="1">Unemployed/Unskilled-Non resident</option>
+									<option value="2">Unskilled-resident</option>
+									<option value="3">Skilled Employee/ Official</option>
+									<option value="4">Officer/Self-Employed/High qualified Employee</option>
+								  </select></li>
+								 <div class="clear"></div>
+							 </ul>
+
+
+							 <ul>
+								 <li class="text-info">Number of Dependents *</li>
+								 <li><input type="text" name="19" placeholder="" required></li>
+								 <div class="clear"></div>
+							 </ul>
+
+
+							 <ul>
+								 <li class="text-info">Telephone*</li>
+								 <li class="se"><select class="time-dropdown form-dropdown validate[required, limitDate]" id="min_15" name="20">
+									<option>  </option>
+									<option value="1">Yes</option>
+									<option value="2">No</option>
+								  </select></li>
+								 <div class="clear"></div>
+							 </ul>
+
+
+							 <ul>
+								 <li class="text-info">Foreign Worker*</li>
+								 <li class="se"><select class="time-dropdown form-dropdown validate[required, limitDate]" id="min_15" name="21">
+									<option>  </option>
+									<option value="1">Yes</option>
+									<option value="2">No</option>
+								  </select></li>
+								 <div class="clear"></div>
+							 </ul>
+
+
+
+							<input type="submit" value="Submit" action="result.html">
+							<div class="clear"></div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="footer w3agile">
+			<p>&copy 2016 Classy Booking Form . All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+		</div>
+
+		<!---main--->
+</body>
+</html>
